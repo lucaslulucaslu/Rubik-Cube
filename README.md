@@ -1,5 +1,5 @@
 # Rubik-Cube
-automatic Rubik's Cube solve robot, hardware and software
+automatic Rubik's Cube robot, hardware and software
 
 ### I want to make a Rubik's cube Mosaics art
 like this one
