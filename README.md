@@ -6,12 +6,16 @@ like this one
 
 ![The Last Supper – Josh Chalom](https://ruwix.com/pics/art/mosaics/last-supper-rubiks-cube-mosaic.jpg)
 
-But I want it bigger, so I desgined one with 2560 cubes (64\*40), I want each cube be remove/changable at any time, so I designed a supporting system like below
+But I want it bigger, my project involves using 2560 cubes arranged in a 64x40 grid. Each cube can be individually removed or changed, supported by a specially designed system.
 
+![supoort system - individual](support/cube-support-individual.jpg)
+![support system - assembly](support/cube-support-assembly.jpg)
 
-Then I have a issue that I have to turn each cube to a given state, I tried this at first, and I even learned Beginer's method, However there is no easy way to turn a cube to a any given state, if I do it hard way like most cube mosaic artist do, it takes weeks even months to finish my design, so I have to build a robot do this for me. After exploring this topic a little I found there is even no as-is solution for this, because most people build cube robot to turn back to initial state instead of to a given state. OK, so I not only have to build the robot but also the algorithm. Luckily there is one solution for hardware https://www.rcr3d.com/index.html
-Frames can be 3D printed, just several servo motors and screws we can have a fully funcitonal cube robot.
-Then the hard part - Algorithm, after a little research I choose to use A\* algorithm to search for fastest solve, everything is in solver.py file, I will add commments later.
+However, a significant challenge arose in manipulating each cube to achieve a specific configuration. Initially, I tried using the Beginner's method of cube solving, but quickly realized that manually adjusting each cube to a desired state was impractical—it could take weeks or even months. Unlike most cube-solving robots, which are designed to reset a cube to its original state, my project requires a robot capable of arranging cubes into any specified configuration.
+
+After some research, I found that there wasn't a ready-made solution for this unique requirement. This realization led me to not only design and build the robot but also develop the necessary algorithm. I discovered a hardware solution at RCR3D(https://www.rcr3d.com/index.html), which offers 3D printable frames that, combined with several servo motors and screws, allow for the construction of a functional cube robot.
+
+For the algorithm, after evaluating different methods, I opted to use the A\* algorithm to determine the quickest solution. The entire code, including this algorithm, is encapsulated in a 'solver.py' file. I plan to enhance this file with detailed comments to aid in understanding and modifying the program.
 
 ## Video shows from an initial state to a given state
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/pOypncBmyBM/sddefault.jpg)](https://www.youtube.com/shorts/pOypncBmyBM)
