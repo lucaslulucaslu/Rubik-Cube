@@ -1,5 +1,10 @@
 # Rubik-Cube
-automatic Rubik's Cube robot, hardware and software
+automatic Rubik's Cube robot, hardware and software, before any explaination let's see what I finally got.
+
+## Video shows from an initial state to a given state
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/pOypncBmyBM/sddefault.jpg)](https://www.youtube.com/shorts/pOypncBmyBM)
+## Video shows from above given state back to initial state
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/yvKblBVN4P4/sddefault.jpg)](https://www.youtube.com/shorts/yvKblBVN4P4)
 
 ### I want to make a Rubik's cube Mosaics art
 like this one
@@ -17,8 +22,3 @@ After some research, I found that there wasn't a ready-made solution for this un
 
 For the algorithm, after evaluating different methods, I opted to use the A\* algorithm to determine the quickest solution. The entire code, including this algorithm, is encapsulated in a 'solver.py' file. I plan to enhance this file with detailed comments to aid in understanding and modifying the program.
 ![Rubik's cube initial state](cube-initial-state.jpg)
-
-## Video shows from an initial state to a given state
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/pOypncBmyBM/sddefault.jpg)](https://www.youtube.com/shorts/pOypncBmyBM)
-## Video shows from above given state back to initial state
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/yvKblBVN4P4/sddefault.jpg)](https://www.youtube.com/shorts/yvKblBVN4P4)
