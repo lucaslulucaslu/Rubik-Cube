@@ -11,7 +11,7 @@ like this one
 
 ![The Last Supper – Josh Chalom](https://ruwix.com/pics/art/mosaics/last-supper-rubiks-cube-mosaic.jpg)
 
-But I want it bigger, my project involves using 2560 cubes arranged in a 64x40 grid. Each cube can be individually removed or changed, supported by a specially designed system.
+Because of my game room' wall limitation, my project involves using 2560 cubes arranged in a 64x40 grid. Each cube should be able to individually removed or changed, so they are supported by a specially designed system.
 
 ![supoort system - individual](support/cube-support-individual.jpg)
 ![support system - assembly](support/cube-support-assembly.jpg)
