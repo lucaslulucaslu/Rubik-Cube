@@ -16,7 +16,7 @@ Because of my game room' wall limitation, my project involves using 2560 cubes a
 ![supoort system - individual](support/cube-support-individual.jpg)
 ![support system - assembly](support/cube-support-assembly.jpg)
 
-However, a significant challenge arose in manipulating each cube to achieve a specific configuration. Initially, I tried using the Beginner's method of cube solving, but quickly realized that manually adjusting each cube to a desired state was impractical—it could take weeks or even months. Unlike most cube-solving robots, which are designed to reset a cube to its original state, my project requires a robot capable of arranging cubes into any specified configuration.
+However, a significant challenge arose in manipulating each cube to achieve a specific configuration. Initially, I tried using the Beginner's method of cube solving, but quickly realized that manually adjusting each cube to a desired state (even for 1 face) was impractical—it could take weeks or even months. Unlike most cube-solving robots, which are designed to reset a cube to its original state, my project requires a robot capable of arranging cubes into any specified configuration.
 
 After some research, I found that there wasn't a ready-made solution for this unique requirement. This realization led me to not only design and build the robot but also develop the necessary algorithm. I discovered a hardware solution at RCR3D(https://www.rcr3d.com/index.html), which offers 3D printable frames that, combined with several servo motors and screws, allow for the construction of a functional cube robot.
 
